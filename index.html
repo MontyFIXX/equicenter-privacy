@@ -18,94 +18,108 @@
 
 <!-- ===================== POLSKI ===================== -->
 <h1>Polityka prywatności — EquiCenter</h1>
-<p class="muted">Ostatnia aktualizacja: <strong>24 czerwca 2026</strong> · Administrator: <strong>Michał „MontyFIXX" Wyrwas</strong> · Kontakt: <a href="mailto:misialyt2@gmail.com">misialyt2@gmail.com</a></p>
+<p class="muted">Ostatnia aktualizacja: <strong>29 września 2026</strong> · Administrator: <strong>Michał „MontyFIXX" Wyrwas</strong> · Kontakt: <a href="mailto:misialyt2@gmail.com">misialyt2@gmail.com</a> · <a href="#english">English version below</a></p>
 
-<p>EquiCenter („aplikacja") to aplikacja dla jeźdźców i właścicieli koni: planowanie treningów, śledzenie tras GPS, dane konia, koszty oraz funkcje społecznościowe. Niniejsza polityka opisuje, jakie dane przetwarzamy i w jakim celu.</p>
+<p>EquiCenter („aplikacja") to aplikacja dla jeźdźców i właścicieli koni: nagrywanie jazd z GPS, dane konia, koszty, przypomnienia oraz funkcje społecznościowe. Niniejsza polityka opisuje, jakie dane przetwarzamy, w jakim celu i gdzie.</p>
 
 <h2>1. Jakie dane przetwarzamy</h2>
 <ul>
   <li><strong>Konto i logowanie</strong> — logujesz się przez Google, Facebook albo Apple (Zaloguj się z Apple). Otrzymujemy identyfikator konta, imię/nazwę wyświetlaną i adres e-mail udostępniony przez dostawcę logowania.</li>
-  <li><strong>Profil</strong> — nazwa jeźdźca/trenera i ustawienia profilu.</li>
-  <li><strong>Dane koni i treningów</strong> — informacje o koniu (paszport, zdrowie, dokumenty, posiłki), treningi, trasy GPS, koszty, przypomnienia. Te dane są przechowywane <strong>lokalnie na Twoim urządzeniu</strong> i nie są wysyłane na serwery, chyba że świadomie je udostępnisz (np. udostępnienie konia znajomemu).</li>
-  <li><strong>Lokalizacja (GPS)</strong> — gdy uruchomisz śledzenie jazdy, zbieramy precyzyjną lokalizację, aby wyznaczyć trasę, dystans, prędkość, chody i kalorie. Dane trasy zapisywane są lokalnie; trafiają dalej tylko jeśli sam zapiszesz/udostępnisz trasę.</li>
-  <li><strong>Dane zdrowotne (Apple Zdrowie / HealthKit)</strong> — jeśli wyrazisz zgodę, aplikacja <strong>zapisuje</strong> zakończoną jazdę w aplikacji Zdrowie jako trening jeździecki (czas, dystans, kalorie, trasa) i może <strong>odczytać</strong> tętno, aby pokazać je przy treningu. Dane zdrowotne pozostają na Twoim urządzeniu, w aplikacji Zdrowie — nie wysyłamy ich na nasze serwery ani nikomu nie udostępniamy i <strong>nigdy</strong> nie używamy ich do reklam. Zgodę możesz w każdej chwili odwołać w Ustawieniach → Zdrowie.</li>
-  <li><strong>Zdjęcia i aparat</strong> — gdy dodajesz zdjęcia do treningu, konia lub wpisu na forum (z galerii lub z aparatu).</li>
-  <li><strong>Treści społecznościowe</strong> — wpisy na forum, komentarze, reakcje, wiadomości na czacie (1:1 i grupowe), grupy, znajomi oraz dane konia udostępnione znajomemu. Te treści są przechowywane na serwerach Google Firebase (Firestore).</li>
-  <li><strong>Zakupy</strong> — status subskrypcji Premium / zakupu „bez reklam". Płatności obsługuje Apple (StoreKit); nie otrzymujemy danych Twojej karty.</li>
+  <li><strong>Profil</strong> — nazwa jeźdźca/trenera, zdjęcie profilowe, kod znajomego oraz — jeśli je podasz — waga, wzrost i data urodzenia (służą do szacowania kalorii).</li>
+  <li><strong>Dane koni, jazd i stajni</strong> — informacje o koniu (paszport, zdrowie, dokumenty, żywienie, dzierżawy), jazdy (czas, dystans, prędkość, chody, kalorie, zdjęcia), trasy GPS, koszty, przypomnienia i wyjazdy. Dane te zapisujemy na Twoim urządzeniu oraz w <strong>kopii zapasowej w chmurze</strong> (punkt 2).</li>
+  <li><strong>Lokalizacja (GPS)</strong> — wyłącznie podczas nagrywania jazdy (także przy zablokowanym ekranie), aby wyznaczyć trasę, dystans, prędkość, chody i kalorie. Trasa jest zapisywana razem z jazdą i trafia do kopii zapasowej; poza tym opuszcza urządzenie tylko wtedy, gdy sam ją udostępnisz (np. jazda na koniu udostępnionym przez znajomego).</li>
+  <li><strong>Czujnik ruchu</strong> — podczas jazdy aplikacja odczytuje przyspieszenie telefonu, żeby lepiej rozpoznać chód konia. Odczyty są przetwarzane na bieżąco na urządzeniu i nie są nigdzie wysyłane.</li>
+  <li><strong>Dane zdrowotne (Apple Zdrowie / HealthKit)</strong> — jeśli wyrazisz zgodę, aplikacja <strong>zapisuje</strong> zakończoną jazdę w aplikacji Zdrowie jako trening jeździecki (czas, dystans, kalorie, trasa) i może <strong>odczytać</strong> tętno, aby pokazać je przy treningu. Dane z Apple Zdrowie pozostają na Twoim urządzeniu — nie wysyłamy ich na nasze serwery, nikomu ich nie udostępniamy i <strong>nigdy</strong> nie używamy ich do reklam. Zgodę możesz w każdej chwili odwołać w Ustawieniach → Zdrowie.</li>
+  <li><strong>Zdjęcia i aparat</strong> — gdy dodajesz zdjęcia do jazdy, konia, profilu lub wpisu na forum (z galerii lub z aparatu).</li>
+  <li><strong>Treści społecznościowe</strong> — wpisy na forum, komentarze, polubienia, wiadomości na czacie (1:1, w grupach i w stajni), grupy, stajnie, znajomi, powiązania trener–podopieczny, treningi zaplanowane przez trenera oraz dane konia udostępnione znajomemu.</li>
+  <li><strong>Moderacja</strong> — zgłoszenia treści (kto zgłosił, co i dlaczego, z kopią zgłoszonego tekstu) oraz lista osób, które zablokowałeś.</li>
+  <li><strong>Opinie i zgłoszenia problemów</strong> — treść wiadomości wysłanej przez „Wyślij opinię / zgłoś problem", dołączone zrzuty ekranu, wersja aplikacji i model telefonu.</li>
+  <li><strong>Powiadomienia</strong> — token urządzenia (Firebase Cloud Messaging) potrzebny do wysyłania powiadomień o wiadomościach, zaproszeniach i treningach.</li>
+  <li><strong>Zakupy</strong> — status subskrypcji Premium / zakupu „Bez reklam". Płatności obsługuje Apple (StoreKit); nie otrzymujemy danych Twojej karty.</li>
 </ul>
 
-<h2>2. Reklamy</h2>
-<p>W wersji bezpłatnej aplikacja może wyświetlać reklamy. Jeśli korzystamy z sieci reklamowej (np. Google AdMob), może ona przetwarzać identyfikatory urządzenia w celach reklamowych zgodnie z własną polityką. Zakup <strong>Premium</strong> lub opcji <strong>„Bez reklam"</strong> wyłącza reklamy.</p>
+<h2 id="kopia-zapasowa">2. Kopia zapasowa w chmurze</h2>
+<p>Aby dane nie przepadły po ponownej instalacji aplikacji albo zmianie telefonu, aplikacja raz na dobę tworzy <strong>kopię zapasową</strong> danych z urządzenia (profile, konie, dokumenty, zdrowie konia, żywienie, koszty, jazdy z trasami, wyjazdy, dzierżawy) i zapisuje ją w <strong>Google Firebase Storage w Unii Europejskiej</strong> (region europe-west1, Belgia). Kopia jest przypisana do Twojego konta i dostępna wyłącznie dla niego — po zalogowaniu na pustym telefonie aplikacja zapyta, czy ją przywrócić. Każda nowa kopia zastępuje poprzednią. Kopię możesz w każdej chwili usunąć: <strong>Profil → Ustawienia → Kopia zapasowa → Usuń kopię z chmury</strong>. Usunięcie konta usuwa także kopię.</p>
 
-<h2>3. Cele i podstawy przetwarzania</h2>
-<p>Dane przetwarzamy, aby: umożliwić działanie aplikacji i konta, śledzić treningi, prowadzić funkcje społecznościowe, obsłużyć zakupy oraz utrzymać bezpieczeństwo. Podstawą jest wykonanie umowy (świadczenie usługi) oraz Twoja zgoda (np. lokalizacja, aparat).</p>
+<h2>3. Reklamy</h2>
+<p>W wersji bezpłatnej aplikacja wyświetla baner reklamowy <strong>Google AdMob</strong>. AdMob może przetwarzać identyfikatory urządzenia, przybliżoną lokalizację (na podstawie adresu IP) oraz informacje o wyświetlonych reklamach i interakcjach z nimi — zgodnie z <a href="https://policies.google.com/privacy">polityką prywatności Google</a>. O dostęp do identyfikatora reklamowego urządzenia pyta systemowe okno iOS „Zezwól aplikacji na śledzenie"; jeśli odmówisz, reklamy nie korzystają z tego identyfikatora. Zakup <strong>Premium</strong> lub opcji <strong>„Bez reklam"</strong> wyłącza reklamy.</p>
 
-<h2>4. Komu udostępniamy dane (podmioty przetwarzające)</h2>
+<h2>4. Cele i podstawy przetwarzania</h2>
+<p>Dane przetwarzamy, aby: umożliwić działanie aplikacji i konta, nagrywać i przechowywać jazdy, tworzyć kopię zapasową, prowadzić funkcje społecznościowe i moderację, wysyłać powiadomienia, obsłużyć zakupy, odpowiadać na zgłoszenia oraz utrzymać bezpieczeństwo. Podstawą jest wykonanie umowy (świadczenie usługi, art. 6 ust. 1 lit. b RODO), Twoja zgoda (lokalizacja, aparat, Apple Zdrowie, śledzenie reklamowe — art. 6 ust. 1 lit. a) oraz nasz prawnie uzasadniony interes w zapewnieniu bezpieczeństwa i moderacji (art. 6 ust. 1 lit. f).</p>
+
+<h2>5. Komu powierzamy dane i gdzie są przechowywane</h2>
 <ul>
-  <li><strong>Google / Firebase</strong> — uwierzytelnianie i przechowywanie danych społecznościowych.</li>
-  <li><strong>Apple</strong> — obsługa zakupów w aplikacji.</li>
-  <li><strong>Meta (Facebook)</strong> — logowanie przez Facebook.</li>
-  <li><strong>Google AdMob</strong> — reklamy (jeśli włączone).</li>
+  <li><strong>Google / Firebase</strong> — uwierzytelnianie, baza danych (Cloud Firestore, region eur3 — Belgia i Holandia), kopie zapasowe (Cloud Storage, europe-west1 — Belgia), powiadomienia (Cloud Messaging) i funkcje serwerowe (europe-west1).</li>
+  <li><strong>Google AdMob</strong> — reklamy w wersji bezpłatnej.</li>
+  <li><strong>Apple</strong> — zakupy w aplikacji, logowanie przez Apple, Apple Zdrowie (na urządzeniu).</li>
+  <li><strong>Meta (Facebook)</strong> — logowanie przez Facebook. Pakiet SDK Facebooka może przekazywać Meta podstawowe informacje techniczne o urządzeniu i uruchomieniu aplikacji.</li>
 </ul>
-<p>Nie sprzedajemy Twoich danych osobowych. Dane mogą być przechowywane na serwerach poza Polską/EOG (zgodnie z politykami dostawców).</p>
+<p>Nie sprzedajemy Twoich danych osobowych. Nasze dane przechowujemy w UE; dostawcy mogą w ograniczonym zakresie przetwarzać je poza EOG na podstawie standardowych klauzul umownych, zgodnie z własnymi politykami.</p>
 
-<h2>5. Przechowywanie i usuwanie</h2>
-<p>Dane lokalne usuwane są po odinstalowaniu aplikacji. Dane na serwerze (konto, treści społecznościowe) przechowujemy do czasu usunięcia konta. Konto możesz usunąć samodzielnie w aplikacji: <strong>Profil → Usuń konto</strong> — usuwamy wtedy konto oraz Twoje dane z chmury (znajomi, posty, czaty, udostępnienia). Możesz też napisać na <a href="mailto:misialyt2@gmail.com">misialyt2@gmail.com</a>.</p>
+<h2 id="usuwanie-danych">6. Przechowywanie i usuwanie danych</h2>
+<p>Dane na urządzeniu znikają po odinstalowaniu aplikacji — ale <strong>kopia zapasowa w chmurze zostaje</strong>, dopóki jej nie usuniesz albo nie usuniesz konta. Dane na serwerze przechowujemy do czasu usunięcia konta. Konto usuniesz samodzielnie w aplikacji: <strong>Profil → Usuń konto</strong>. Szczegóły — co dokładnie usuwamy i jak zrobić to bez aplikacji — opisuje strona <a href="usuwanie-danych.html">Usuwanie konta i danych</a>. Możesz też napisać na <a href="mailto:misialyt2@gmail.com">misialyt2@gmail.com</a>.</p>
 
-<h2>6. Twoje prawa (RODO)</h2>
-<p>Masz prawo dostępu do danych, ich sprostowania, usunięcia, ograniczenia i przenoszenia, a także sprzeciwu i cofnięcia zgody. Skontaktuj się: <a href="mailto:misialyt2@gmail.com">misialyt2@gmail.com</a>.</p>
+<h2>7. Twoje prawa (RODO)</h2>
+<p>Masz prawo dostępu do danych, ich sprostowania, usunięcia, ograniczenia i przenoszenia, a także sprzeciwu i cofnięcia zgody w dowolnym momencie. Skontaktuj się: <a href="mailto:misialyt2@gmail.com">misialyt2@gmail.com</a>. Masz też prawo wnieść skargę do Prezesa Urzędu Ochrony Danych Osobowych (uodo.gov.pl).</p>
 
-<h2>7. Dzieci</h2>
-<p>Aplikacja nie jest skierowana do dzieci poniżej 13. roku życia i nie zbiera świadomie ich danych.</p>
+<h2>8. Dzieci</h2>
+<p>Aplikacja nie jest przeznaczona dla dzieci poniżej 13. roku życia i nie zbiera świadomie ich danych.</p>
 
-<h2>8. Zmiany</h2>
+<h2>9. Zmiany</h2>
 <p>Możemy aktualizować tę politykę. Istotne zmiany ogłosimy w aplikacji lub pod tym adresem.</p>
 
 <hr>
 
 <!-- ===================== ENGLISH ===================== -->
-<h1>Privacy Policy — EquiCenter</h1>
-<p class="muted">Last updated: <strong>June 24, 2026</strong> · Controller: <strong>Michał „MontyFIXX" Wyrwas</strong> · Contact: <a href="mailto:misialyt2@gmail.com">misialyt2@gmail.com</a></p>
+<h1 id="english">Privacy Policy — EquiCenter</h1>
+<p class="muted">Last updated: <strong>September 29, 2026</strong> · Controller: <strong>Michał „MontyFIXX" Wyrwas</strong> · Contact: <a href="mailto:misialyt2@gmail.com">misialyt2@gmail.com</a></p>
 
-<p>EquiCenter ("the app") is an app for riders and horse owners: training planning, GPS route tracking, horse data, costs and social features. This policy explains what data we process and why.</p>
+<p>EquiCenter ("the app") is an app for riders and horse owners: GPS ride recording, horse data, costs, reminders and social features. This policy explains what data we process, why, and where.</p>
 
 <h2>1. Data we process</h2>
 <ul>
   <li><strong>Account &amp; sign-in</strong> — you sign in with Google, Facebook or Apple (Sign in with Apple). We receive an account identifier, your display name and the email shared by the sign-in provider.</li>
-  <li><strong>Profile</strong> — rider/trainer name and profile settings.</li>
-  <li><strong>Horse &amp; training data</strong> — horse info (passport, health, documents, meals), trainings, GPS routes, costs, reminders. Stored <strong>locally on your device</strong> and not uploaded unless you deliberately share it (e.g. sharing a horse with a friend).</li>
-  <li><strong>Location (GPS)</strong> — when you start ride tracking, we collect precise location to compute route, distance, speed, gaits and calories. Route data is stored locally; it leaves the device only if you save/share a route.</li>
-  <li><strong>Health data (Apple Health / HealthKit)</strong> — with your permission, the app <strong>writes</strong> a finished ride to Apple Health as an equestrian workout (duration, distance, calories, route) and may <strong>read</strong> heart rate to show it alongside the training. Health data stays on your device inside Apple Health — we never upload it to our servers, never share it and <strong>never</strong> use it for advertising. You can revoke access at any time in Settings → Health.</li>
-  <li><strong>Photos &amp; camera</strong> — when you add photos to a training, horse or forum post (from library or camera).</li>
-  <li><strong>Social content</strong> — forum posts, comments, reactions, chat messages (1:1 and group), groups, friends, and horse data shared with a friend. Stored on Google Firebase (Firestore) servers.</li>
-  <li><strong>Purchases</strong> — Premium subscription / "remove ads" status. Payments are handled by Apple (StoreKit); we do not receive your card data.</li>
+  <li><strong>Profile</strong> — rider/trainer name, profile photo, friend code and — if you enter them — weight, height and date of birth (used to estimate calories).</li>
+  <li><strong>Horse, ride &amp; stable data</strong> — horse info (passport, health, documents, feeding, leases), rides (duration, distance, speed, gaits, calories, photos), GPS routes, costs, reminders and trips. Stored on your device and in a <strong>cloud backup</strong> (section 2).</li>
+  <li><strong>Location (GPS)</strong> — only while a ride is being recorded (including with the screen locked), to compute route, distance, speed, gaits and calories. The route is saved with the ride and included in the backup; otherwise it leaves the device only if you share it (e.g. a ride on a horse shared by a friend).</li>
+  <li><strong>Motion sensor</strong> — during a ride the app reads the phone's acceleration to recognise the horse's gait. Readings are processed live on the device and never uploaded.</li>
+  <li><strong>Health data (Apple Health / HealthKit)</strong> — with your permission, the app <strong>writes</strong> a finished ride to Apple Health as an equestrian workout (duration, distance, calories, route) and may <strong>read</strong> heart rate to show it alongside the training. Apple Health data stays on your device — we never upload it to our servers, never share it and <strong>never</strong> use it for advertising. You can revoke access at any time in Settings → Health.</li>
+  <li><strong>Photos &amp; camera</strong> — when you add photos to a ride, horse, profile or forum post (from library or camera).</li>
+  <li><strong>Social content</strong> — forum posts, comments, likes, chat messages (1:1, group and stable), groups, stables, friends, trainer–student links, trainings planned by a trainer, and horse data shared with a friend.</li>
+  <li><strong>Moderation</strong> — content reports (who reported what and why, with a copy of the reported text) and the list of people you blocked.</li>
+  <li><strong>Feedback &amp; bug reports</strong> — the message sent via "Send feedback / report a problem", attached screenshots, app version and phone model.</li>
+  <li><strong>Notifications</strong> — a device token (Firebase Cloud Messaging) used to send notifications about messages, invitations and trainings.</li>
+  <li><strong>Purchases</strong> — Premium subscription / "Remove ads" status. Payments are handled by Apple (StoreKit); we do not receive your card data.</li>
 </ul>
 
-<h2>2. Advertising</h2>
-<p>The free version may show ads. If we use an ad network (e.g. Google AdMob), it may process device identifiers for advertising under its own policy. Buying <strong>Premium</strong> or the <strong>"Remove ads"</strong> option turns ads off.</p>
+<h2 id="backup">2. Cloud backup</h2>
+<p>So that your data survives reinstalling the app or switching phones, the app creates a daily <strong>backup</strong> of the data on your device (profiles, horses, documents, horse health, feeding, costs, rides with routes, trips, leases) and stores it in <strong>Google Firebase Storage in the European Union</strong> (region europe-west1, Belgium). The backup belongs to your account and is accessible only to it — after signing in on an empty phone the app asks whether to restore it. Each new backup replaces the previous one. You can delete it at any time: <strong>Profile → Settings → Backup → Delete backup from cloud</strong>. Deleting your account deletes the backup too.</p>
 
-<h2>3. Purposes &amp; legal bases</h2>
-<p>We process data to run the app and your account, track trainings, provide social features, handle purchases and maintain security. Legal bases are performance of a contract (providing the service) and your consent (e.g. location, camera).</p>
+<h2>3. Advertising</h2>
+<p>The free version shows a <strong>Google AdMob</strong> banner. AdMob may process device identifiers, approximate location (derived from the IP address) and information about ads shown and interactions with them, under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. Access to the device advertising identifier is requested by the iOS "Allow app to track" prompt; if you decline, ads do not use that identifier. Buying <strong>Premium</strong> or the <strong>"Remove ads"</strong> option turns ads off.</p>
 
-<h2>4. Who we share with (processors)</h2>
+<h2>4. Purposes &amp; legal bases</h2>
+<p>We process data to run the app and your account, record and store rides, create backups, provide social features and moderation, send notifications, handle purchases, respond to reports and maintain security. Legal bases: performance of a contract (Art. 6(1)(b) GDPR), your consent (location, camera, Apple Health, advertising tracking — Art. 6(1)(a)) and our legitimate interest in security and moderation (Art. 6(1)(f)).</p>
+
+<h2>5. Processors &amp; where data is stored</h2>
 <ul>
-  <li><strong>Google / Firebase</strong> — authentication and storage of social data.</li>
-  <li><strong>Apple</strong> — in-app purchases.</li>
-  <li><strong>Meta (Facebook)</strong> — Facebook login.</li>
-  <li><strong>Google AdMob</strong> — ads (if enabled).</li>
+  <li><strong>Google / Firebase</strong> — authentication, database (Cloud Firestore, region eur3 — Belgium and the Netherlands), backups (Cloud Storage, europe-west1 — Belgium), notifications (Cloud Messaging) and server functions (europe-west1).</li>
+  <li><strong>Google AdMob</strong> — ads in the free version.</li>
+  <li><strong>Apple</strong> — in-app purchases, Sign in with Apple, Apple Health (on device).</li>
+  <li><strong>Meta (Facebook)</strong> — Facebook login. The Facebook SDK may send Meta basic technical information about the device and app launches.</li>
 </ul>
-<p>We do not sell your personal data. Data may be stored on servers outside Poland/EEA per the providers' policies.</p>
+<p>We do not sell your personal data. We store our data in the EU; providers may process it outside the EEA to a limited extent under standard contractual clauses, per their own policies.</p>
 
-<h2>5. Retention &amp; deletion</h2>
-<p>Local data is removed when you uninstall the app. Server data (account, social content) is kept until you delete your account. You can delete your account yourself in the app: <strong>Profile → Delete account</strong> — this removes the account and your cloud data (friends, posts, chats, shares). You can also email <a href="mailto:misialyt2@gmail.com">misialyt2@gmail.com</a>.</p>
+<h2 id="data-deletion">6. Retention &amp; deletion</h2>
+<p>Data on the device is removed when you uninstall the app — but the <strong>cloud backup remains</strong> until you delete it or delete your account. Server data is kept until you delete your account. You can delete your account yourself in the app: <strong>Profile → Delete account</strong>. Details — exactly what is deleted and how to do it without the app — are on the <a href="usuwanie-danych.html#english">Account &amp; data deletion</a> page. You can also email <a href="mailto:misialyt2@gmail.com">misialyt2@gmail.com</a>.</p>
 
-<h2>6. Your rights (GDPR)</h2>
-<p>You have the right to access, rectify, erase, restrict and port your data, and to object and withdraw consent. Contact: <a href="mailto:misialyt2@gmail.com">misialyt2@gmail.com</a>.</p>
+<h2>7. Your rights (GDPR)</h2>
+<p>You have the right to access, rectify, erase, restrict and port your data, to object, and to withdraw consent at any time. Contact: <a href="mailto:misialyt2@gmail.com">misialyt2@gmail.com</a>. You may also lodge a complaint with the Polish supervisory authority (uodo.gov.pl).</p>
 
-<h2>7. Children</h2>
+<h2>8. Children</h2>
 <p>The app is not directed to children under 13 and does not knowingly collect their data.</p>
 
-<h2>8. Changes</h2>
+<h2>9. Changes</h2>
 <p>We may update this policy. Material changes will be announced in the app or at this address.</p>
 
 </body>
